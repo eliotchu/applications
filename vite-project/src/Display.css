@@ -1,4 +1,86 @@
-.page{
-    display: flexbox;
+.display {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .leet {
     width: 100%;
-}
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .table-top {
+    background-color: #f4f4f4;
+  }
+  
+  .table-titles,
+  .table-records {
+    width: 100%;
+  }
+  
+  .table-headings {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table-body {
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  table a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  table a:hover {
+    text-decoration: underline;
+  }
+  
+  .page {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .table-headings {
+      font-size: 1rem;
+    }
+  
+    .table-records td {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .page button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .page p {
+      font-size: 0.9rem;
+    }
+  }
+  

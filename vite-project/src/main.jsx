@@ -7,5 +7,6 @@ import Display from './Display.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Display />
+    
   </StrictMode>,
 )
